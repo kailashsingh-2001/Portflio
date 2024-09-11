@@ -1,0 +1,108 @@
+
+
+/* Home Page Wrapper */
+.homepage {
+    position: relative;
+    /* height: 100vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-family: 'Arial', sans-serif;
+   /* border: 1px solid red; */
+   width: 100vw;
+  }
+
+  
+  /* Background Animation */
+  .background-animation {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+     height: 100vh;
+    background:url('https://t4.ftcdn.net/jpg/02/43/75/73/360_F_243757367_gBpS6R5c8DB7pL5gw9gi9KXlzFfbdZOA.jpg') no-repeat center center/cover;;
+    
+    z-index: -1;
+    animation: float 10s ease-in-out infinite;
+    /* filter: blur(3px); */
+    opacity: 0.8;
+    /* -webkit-filter: blur(3px); */
+}
+  
+  @keyframes float {
+    0%, 100% {
+      transform: translateY(-70px);
+    }
+    50% {
+      transform: translateY(-100px);
+    }
+  }
+  
+  /* Title and Subtitle Animations */
+  .title {
+    font-size: 4rem;
+    margin: 0;
+    animation: slideIn 1s ease-out;
+  }
+  
+  .subtitle {
+    font-size: 1.5rem;
+    margin: 20px 0;
+    animation: fadeIn 2s ease-out;
+  }
+  
+  @keyframes slideIn {
+    from {
+      opacity: 0;
+      transform: translateX(-360px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  /* Call-to-Action Buttons */
+  .cta-buttons {
+    margin-top: 30px;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    padding: 12px 25px;
+    margin: 10px;
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: all 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: white;
+    color: #000;
+  }
+  
+  .cta-button-secondary {
+    border-color: #00d1b2;
+    color: #00d1b2;
+  }
+  
+  .cta-button-secondary:hover {
+    background-color: #00d1b2;
+    color: white;
+  }
+
+  

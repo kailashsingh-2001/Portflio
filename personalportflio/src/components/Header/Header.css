@@ -1,0 +1,43 @@
+.nav-bar{
+   /* border: 1px solid rgb(9, 227, 118); */
+   padding: 10px ;
+   width: 100%;
+   background-color: transparent;
+   /* position:fixed;  */
+}
+.navbar-content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* border: 1px solid blue; */
+}
+
+.nav-btn{
+    /* background-color: rgb(240, 237, 237); */
+    color:white;
+    /* padding: 20px 25px; */
+    border: none;
+    border-radius: 40%;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    cursor: pointer;
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+    
+    transition: 0.5s;
+
+    
+    
+}
+.nav-btn{
+    text-decoration: none;
+}
+.nav-btn.active{
+    color:blue;
+    padding: 17px 21px;
+}
+ 
+
+
+
+

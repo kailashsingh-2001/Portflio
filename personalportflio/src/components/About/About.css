@@ -1,0 +1,56 @@
+section{
+    border: 1px solid blue;
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-cont {
+   
+    width: 80%;
+    height: 80vh;
+    border: 1px solid red;
+    display: flex;
+    justify-content:space-evenly;
+    margin: auto;
+    align-items: center;
+    box-shadow: 0 6px 10px 0 rgba(239, 233, 233, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 15px;
+
+
+}
+.photo{
+    width: 35%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid red;
+    border-radius: 13px;
+    background: url('');
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.about-content{
+    width: 45%;
+    height: 70%;
+    /* border: 2px solid red; */
+}
+.abt{
+    font-family: "Poppins", sans-serif;
+    color: white;
+    font-weight: 400;
+    margin-top: 4px;
+    font-size: 25px;
+}
+ .tba{
+    font-family: "Poppins", sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: 200;
+    margin-top: 4px;
+    font-size: 25px;
+    margin-top: 15px;
+}
